@@ -1,0 +1,15 @@
+{
+  "name": "prompt-improver-backend",
+  "version": "1.0.0",
+  "description": "Backend API for the Prompt Improver Chrome extension",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "@pinecone-database/pinecone": "^7.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.0"
+  }
+}
